@@ -302,7 +302,7 @@ public class SerialCameraController : MonoBehaviour
 
     void SaveSettings()
     {
-        PlayerPrefs.SetString(KEY_SERIAL_PORT, "COM3");
+        PlayerPrefs.SetString(KEY_SERIAL_PORT, portName);
         PlayerPrefs.SetFloat(KEY_CUSTOM_LEFT_BOUND, customLeftBound);
         PlayerPrefs.SetFloat(KEY_CUSTOM_RIGHT_BOUND, customRightBound);
         PlayerPrefs.SetFloat(KEY_DYNAMIC_ENCODER_MIN, dynamicEncoderMin);

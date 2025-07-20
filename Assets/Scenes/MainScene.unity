@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a2fa902491c7124db081e3e05fca5e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM4
+  portName: COM3
   baudRate: 9600
   boundarySprite: {fileID: 232280181}
   controlledCamera: {fileID: 519420031}
