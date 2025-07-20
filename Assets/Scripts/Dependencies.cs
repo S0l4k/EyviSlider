@@ -14,7 +14,7 @@ public class Dependencies : MonoBehaviour
 
     private Dictionary<Type, object> dependencies = new();
 
-
+    
     // aby u¿yæ, w innym skrypcie w awake; Dependencies.Instance.RegisterDependency<>();
     public void RegisterDependency<T>(T instance)
     {
