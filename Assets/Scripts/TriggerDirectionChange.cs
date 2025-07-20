@@ -9,6 +9,7 @@ public class TriggerDirectionChange : MonoBehaviour
     {
         if (other.CompareTag("MainCamera"))
         {
+            Debug.Log("Camera in");
             EarthController Controller = Dependencies.Instance.GetDependancy<EarthController>();
             Controller.SetRotationDirection(Direction);
         }
@@ -18,6 +19,7 @@ public class TriggerDirectionChange : MonoBehaviour
     {
         if (other.CompareTag("MainCamera"))
         {
+            Debug.Log("Camera out");
             EarthController Controller = Dependencies.Instance.GetDependancy<EarthController>();
             Controller.SetRotationDirection(0);
 
