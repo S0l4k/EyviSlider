@@ -9,13 +9,14 @@ public class EarthController : MonoBehaviour
     private float currentProgress = 0f;
     private Quaternion targetRotation;
 
-    private void Awake()
+    private void Start()
     {
         Dependencies.Instance.RegisterDependency<EarthController>(this);
     }
     void Update()
     {
-        
+        //Debug.Log("direction " + RotationDirection);
+        //Debug.Log("Current progress " + currentProgress + " + RotationDirection " + RotationDirection + " * rotationSpeed " + rotationSpeed + " Time " + Time.deltaTime);
         currentProgress = Mathf.Clamp01(currentProgress + RotationDirection * rotationSpeed * Time.deltaTime);
 
         targetRotation = CalculateTargetRotation(currentProgress);

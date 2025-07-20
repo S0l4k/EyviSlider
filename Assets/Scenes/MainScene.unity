@@ -1529,7 +1529,7 @@ MonoBehaviour:
   fadeOutDuration: 0.5
   targetAlpha: 1
   cameraMovementThreshold: 0.01
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 2034625775}
 --- !u!114 &1592202151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,6 +1805,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ea2aec0c4a93b0428ace35e313bd093, type: 3}
+--- !u!1 &2034625775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8577277617320678821, guid: 22ce3d1ddf45a184287dadcbeaaf2406, type: 3}
+  m_PrefabInstance: {fileID: 3367068450281524071}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2042170289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8879622302076503210, guid: 3a32b54ad3c471e4da87c0cbb05973eb, type: 3}
