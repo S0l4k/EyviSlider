@@ -98,7 +98,7 @@ public class SerialCameraController : MonoBehaviour
 
         serialPort = new SerialPort(portName, baudRate);
         serialPort.ReadTimeout = 100;
-
+        Debug.Log("serila port " +  serialPort);
         try
         {
             serialPort.Open();
@@ -302,7 +302,7 @@ public class SerialCameraController : MonoBehaviour
 
     void SaveSettings()
     {
-        PlayerPrefs.SetString(KEY_SERIAL_PORT, portName);
+        PlayerPrefs.SetString(KEY_SERIAL_PORT, "COM3");
         PlayerPrefs.SetFloat(KEY_CUSTOM_LEFT_BOUND, customLeftBound);
         PlayerPrefs.SetFloat(KEY_CUSTOM_RIGHT_BOUND, customRightBound);
         PlayerPrefs.SetFloat(KEY_DYNAMIC_ENCODER_MIN, dynamicEncoderMin);
