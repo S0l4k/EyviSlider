@@ -6,8 +6,11 @@ public class EarthController : MonoBehaviour
     public float rotationSpeed = 0.8f;
     public float rotationSmoothness = 5f;
     public int RotationDirection = 0;
-    private float currentProgress = 0f;
+    public float currentProgress = 0f;
+    public float minX = -13.3f;
+    public float maxX = 7.3f;
     private Quaternion targetRotation;
+    public GameObject MainCamera;
 
     private void Start()
     {
@@ -15,9 +18,9 @@ public class EarthController : MonoBehaviour
     }
     void Update()
     {
-        //Debug.Log("direction " + RotationDirection);
-        //Debug.Log("Current progress " + currentProgress + " + RotationDirection " + RotationDirection + " * rotationSpeed " + rotationSpeed + " Time " + Time.deltaTime);
-        currentProgress = Mathf.Clamp01(currentProgress + RotationDirection * rotationSpeed * Time.deltaTime);
+        float cameraX = MainCamera.transform.position.x;
+        currentProgress = Mathf.InverseLerp(minX, maxX, cameraX);
+        //currentProgress = Mathf.Clamp01(currentProgress + RotationDirection * rotationSpeed * Time.deltaTime);
 
         targetRotation = CalculateTargetRotation(currentProgress);
         transform.rotation = Quaternion.Slerp(transform.rotation,
