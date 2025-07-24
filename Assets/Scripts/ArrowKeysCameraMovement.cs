@@ -5,12 +5,9 @@ public class ArrowKeysCameraMovement : MonoBehaviour
 {
     // Speed at which the camera moves horizontally.
     public float moveSpeed = 5f;
-    public GameObject Camera;
-    public TextMeshProUGUI Text;
 
     void Update()
     {
-        Text.text = Camera.transform.position.x.ToString();
         // Get horizontal input (arrow keys or A/D).
         float horizontal = Input.GetAxis("Horizontal");
 
