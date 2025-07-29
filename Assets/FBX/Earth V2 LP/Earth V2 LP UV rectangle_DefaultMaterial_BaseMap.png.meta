@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Earth V2 LP UV rectangle_DefaultMaterial_BaseMap_0: -5650169813448855896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
