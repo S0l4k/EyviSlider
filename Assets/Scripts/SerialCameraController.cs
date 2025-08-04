@@ -98,7 +98,7 @@ public class SerialCameraController : MonoBehaviour
 
         serialPort = new SerialPort(portName, baudRate);
         serialPort.ReadTimeout = 100;
-
+        Debug.Log("serila port " +  serialPort);
         try
         {
             serialPort.Open();
