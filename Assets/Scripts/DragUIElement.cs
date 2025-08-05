@@ -82,6 +82,8 @@ public class DragUIElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
         isDragging = false;
         targetScale = originalScale;
+        PuzzleComplitionCounter puzzleCounter =Dependencies.Instance.GetDependancy<PuzzleComplitionCounter>();
+        puzzleCounter.CheckPuzzle();
     }
 
     public void OnDrag(PointerEventData eventData)
