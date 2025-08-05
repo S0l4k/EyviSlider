@@ -1718,7 +1718,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1273146104}
   - {fileID: 826392997}
   - {fileID: 1199742522}
   - {fileID: 1792098211}
@@ -1727,6 +1726,7 @@ RectTransform:
   - {fileID: 1538185732}
   - {fileID: 1315441248}
   - {fileID: 1100701857}
+  - {fileID: 1273146104}
   m_Father: {fileID: 249757624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3298,7 +3298,7 @@ GameObject:
   - component: {fileID: 826392997}
   - component: {fileID: 826393000}
   - component: {fileID: 826392999}
-  - component: {fileID: 826392998}
+  - component: {fileID: 826393001}
   m_Layer: 0
   m_Name: puzlepiece1
   m_TagString: Untagged
@@ -3325,18 +3325,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &826392998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826392996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &826392999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3375,6 +3363,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826392996}
   m_CullTransparentMesh: 1
+--- !u!114 &826393001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826392996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &847695499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4239,7 +4242,7 @@ GameObject:
   - component: {fileID: 1100701857}
   - component: {fileID: 1100701860}
   - component: {fileID: 1100701859}
-  - component: {fileID: 1100701858}
+  - component: {fileID: 1100701861}
   m_Layer: 0
   m_Name: puzlepiece8
   m_TagString: Untagged
@@ -4266,18 +4269,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1100701858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100701856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1100701859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4316,6 +4307,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100701856}
   m_CullTransparentMesh: 1
+--- !u!114 &1100701861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100701856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!4 &1137865822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7382214964701429615, guid: 3dba77fb0e558ea418f2112a482725ea, type: 3}
@@ -4498,7 +4504,7 @@ GameObject:
   - component: {fileID: 1199742522}
   - component: {fileID: 1199742525}
   - component: {fileID: 1199742524}
-  - component: {fileID: 1199742523}
+  - component: {fileID: 1199742526}
   m_Layer: 0
   m_Name: puzlepiece2
   m_TagString: Untagged
@@ -4525,18 +4531,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1199742523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199742521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1199742524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4575,6 +4569,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199742521}
   m_CullTransparentMesh: 1
+--- !u!114 &1199742526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199742521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &1214871481
 GameObject:
   m_ObjectHideFlags: 0
@@ -5332,7 +5341,7 @@ GameObject:
   - component: {fileID: 1315441248}
   - component: {fileID: 1315441251}
   - component: {fileID: 1315441250}
-  - component: {fileID: 1315441249}
+  - component: {fileID: 1315441252}
   m_Layer: 0
   m_Name: puzlepiece7
   m_TagString: Untagged
@@ -5359,18 +5368,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1315441249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315441247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1315441250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5409,6 +5406,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315441247}
   m_CullTransparentMesh: 1
+--- !u!114 &1315441252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315441247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &1338160212
 GameObject:
   m_ObjectHideFlags: 0
@@ -5947,7 +5959,7 @@ GameObject:
   - component: {fileID: 1538185732}
   - component: {fileID: 1538185735}
   - component: {fileID: 1538185734}
-  - component: {fileID: 1538185733}
+  - component: {fileID: 1538185736}
   m_Layer: 0
   m_Name: puzlepiece6
   m_TagString: Untagged
@@ -5974,18 +5986,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1538185733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538185731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1538185734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6024,6 +6024,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538185731}
   m_CullTransparentMesh: 1
+--- !u!114 &1538185736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538185731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &1548736247
 GameObject:
   m_ObjectHideFlags: 0
@@ -6437,7 +6452,7 @@ GameObject:
   - component: {fileID: 1684405124}
   - component: {fileID: 1684405127}
   - component: {fileID: 1684405126}
-  - component: {fileID: 1684405125}
+  - component: {fileID: 1684405128}
   m_Layer: 0
   m_Name: puzlepiece4
   m_TagString: Untagged
@@ -6464,18 +6479,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1684405125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684405123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1684405126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6514,6 +6517,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684405123}
   m_CullTransparentMesh: 1
+--- !u!114 &1684405128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684405123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &1770770104
 GameObject:
   m_ObjectHideFlags: 0
@@ -6866,7 +6884,7 @@ GameObject:
   - component: {fileID: 1792098211}
   - component: {fileID: 1792098214}
   - component: {fileID: 1792098213}
-  - component: {fileID: 1792098212}
+  - component: {fileID: 1792098215}
   m_Layer: 0
   m_Name: puzlepiece3
   m_TagString: Untagged
@@ -6893,18 +6911,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1792098212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792098210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1792098213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6943,6 +6949,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792098210}
   m_CullTransparentMesh: 1
+--- !u!114 &1792098215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792098210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &1795097611
 GameObject:
   m_ObjectHideFlags: 0
@@ -8111,7 +8132,7 @@ GameObject:
   - component: {fileID: 2128677536}
   - component: {fileID: 2128677539}
   - component: {fileID: 2128677538}
-  - component: {fileID: 2128677537}
+  - component: {fileID: 2128677540}
   m_Layer: 0
   m_Name: puzlepiece5
   m_TagString: Untagged
@@ -8138,18 +8159,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 4.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2128677537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128677535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7da7637e91018b4fbb92d3adfeb5993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2128677538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8188,6 +8197,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128677535}
   m_CullTransparentMesh: 1
+--- !u!114 &2128677540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128677535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a484e2bef83f0be468cd1aabda7cc2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaThreshold: 0.1
+  dragScaleFactor: 1.05
+  scaleSpeed: 10
 --- !u!1 &2141007470
 GameObject:
   m_ObjectHideFlags: 0
