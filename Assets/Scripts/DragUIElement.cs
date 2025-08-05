@@ -6,13 +6,10 @@ using UnityEngine.UI;
 public class DragUIElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
     [Header("Drag Settings")]
-    [Tooltip("Minimum alpha value to register clicks (0 = fully transparent, 1 = fully opaque)")]
     [Range(0, 1)] public float alphaThreshold = 0.1f;
 
     [Header("Visual Feedback")]
-    [Tooltip("Scale multiplier when dragging (1 = no change)")]
     [SerializeField] private float dragScaleFactor = 1.05f;
-    [Tooltip("Scaling animation speed")]
     [SerializeField] private float scaleSpeed = 10f;
 
     private RectTransform rectTransform;
@@ -22,21 +19,35 @@ public class DragUIElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     private Image image;
     private Vector3 originalScale;
     private Vector3 targetScale;
+    private bool isInitialized = false;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
         image = GetComponent<Image>();
-        originalScale = rectTransform.localScale;
 
-        // Set up alpha-based click detection
+        // Initialize scale values properly
+        originalScale = rectTransform.localScale;
+        targetScale = originalScale;
+        rectTransform.localScale = originalScale;
+
         image.alphaHitTestMinimumThreshold = alphaThreshold;
+        isInitialized = true;
+    }
+
+    private void OnEnable()
+    {
+        // Reset scale when object is enabled
+        if (isInitialized)
+        {
+            rectTransform.localScale = originalScale;
+            targetScale = originalScale;
+        }
     }
 
     private void Update()
     {
-        // Smooth scaling animation
         if (rectTransform.localScale != targetScale)
         {
             rectTransform.localScale = Vector3.Lerp(
@@ -48,9 +59,10 @@ public class DragUIElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        if (!isInitialized) return;
+
         if (canvas.renderMode == RenderMode.WorldSpace)
         {
-            // Calculate offset from click position to object center
             RectTransformUtility.ScreenPointToWorldPointInRectangle(
                 rectTransform,
                 eventData.position,
@@ -59,30 +71,30 @@ public class DragUIElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
 
             offset = rectTransform.position - worldPoint;
             isDragging = true;
-
-            // Visual feedback
             targetScale = originalScale * dragScaleFactor;
-            transform.SetAsLastSibling(); // Bring to front
+            transform.SetAsLastSibling();
         }
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        if (!isInitialized) return;
+
         isDragging = false;
-        targetScale = originalScale; // Return to normal scale
+        targetScale = originalScale;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (isDragging && canvas.renderMode == RenderMode.WorldSpace)
-        {
-            RectTransformUtility.ScreenPointToWorldPointInRectangle(
-                canvas.GetComponent<RectTransform>(),
-                eventData.position,
-                eventData.pressEventCamera,
-                out Vector3 worldPoint);
+        if (!isInitialized || !isDragging || canvas.renderMode != RenderMode.WorldSpace)
+            return;
 
-            rectTransform.position = worldPoint + (Vector3)offset;
-        }
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(
+            canvas.GetComponent<RectTransform>(),
+            eventData.position,
+            eventData.pressEventCamera,
+            out Vector3 worldPoint);
+
+        rectTransform.position = worldPoint + (Vector3)offset;
     }
 }
