@@ -24,6 +24,7 @@ public class SacrificeTableScript : MonoBehaviour
             _object.transform.SetLocalPositionAndRotation(new Vector3(Random.Range(-1.5f, 1.5f), 1, 0), Quaternion.identity);
         }
     }
+
     public void ChechTable()
     {
         score.text = "0/4";
