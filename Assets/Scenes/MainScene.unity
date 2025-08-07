@@ -271,7 +271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &124880836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1381,9 +1381,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b07f98eb52b12ac48b24023d86c44aaa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c744486e2c7b664bbcb9262cbeff698, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1775,7 +1775,6 @@ GameObject:
   - component: {fileID: 404380805}
   - component: {fileID: 404380807}
   - component: {fileID: 404380806}
-  - component: {fileID: 404380808}
   m_Layer: 0
   m_Name: MiniBackground
   m_TagString: Untagged
@@ -1796,9 +1795,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1912036252}
-  - {fileID: 1273146104}
   - {fileID: 796571621}
   - {fileID: 80657837}
+  - {fileID: 1273146104}
   m_Father: {fileID: 249757624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1844,18 +1843,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404380804}
   m_CullTransparentMesh: 1
---- !u!114 &404380808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 404380804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d57600b9ab692a34e877a21ccf2b9c07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &501570072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,7 +2427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &615172485
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2474,16 +2461,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4811321, g: 0.4788626, b: 0.4788626, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 89a249cf00608aa40bf09ace1fb12586, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -6003,7 +5990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1457838457
 RectTransform:
   m_ObjectHideFlags: 0
