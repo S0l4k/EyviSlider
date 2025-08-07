@@ -92,5 +92,6 @@ public class SolarClockMinigame : MonoBehaviour
         timeSlider.interactable = true;
         SetNewTargetHour();
         timeSlider.value = 0f;
+        won = false;
     }
 }
