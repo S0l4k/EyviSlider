@@ -15,34 +15,76 @@ public class DragUITableElement : MonoBehaviour, IPointerDownHandler, IPointerUp
     private RectTransform rectTransform;
     private Canvas canvas;
     private bool isDragging = false;
-    private Vector2 offset;
+    private Vector3 offset;
     private Image image;
     private Vector3 originalScale;
     private Vector3 targetScale;
-    private bool isInitialized = false;
+    private float originalZPosition;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
         image = GetComponent<Image>();
-
-        // Initialize scale values properly
         originalScale = rectTransform.localScale;
         targetScale = originalScale;
-        rectTransform.localScale = originalScale;
+        originalZPosition = rectTransform.position.z;
 
-        image.alphaHitTestMinimumThreshold = alphaThreshold;
-        isInitialized = true;
+        try
+        {
+            image.alphaHitTestMinimumThreshold = alphaThreshold;
+        }
+        catch (System.InvalidOperationException)
+        {
+            Debug.LogWarning("Alpha hit test disabled - texture not readable", this);
+        }
     }
 
-    private void OnEnable()
+    public void OnPointerDown(PointerEventData eventData)
     {
-        // Reset scale when object is enabled
-        if (isInitialized)
+        if (canvas.renderMode == RenderMode.WorldSpace)
         {
-            rectTransform.localScale = originalScale;
-            targetScale = originalScale;
+            originalZPosition = rectTransform.position.z;
+
+            RectTransformUtility.ScreenPointToWorldPointInRectangle(
+                rectTransform,
+                eventData.position,
+                eventData.pressEventCamera,
+                out Vector3 worldPoint);
+
+            offset = rectTransform.position - worldPoint;
+
+            isDragging = true;
+            targetScale = originalScale * dragScaleFactor;
+
+            Canvas parentCanvas = GetComponentInParent<Canvas>();
+            if (parentCanvas != null) parentCanvas.sortingOrder = 1;
+        }
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        isDragging = false;
+        targetScale = originalScale;
+        SacrificeTableScript tableScript = Dependencies.Instance.GetDependancy<SacrificeTableScript>();
+        tableScript.ChechTable();
+        Canvas parentCanvas = GetComponentInParent<Canvas>();
+        if (parentCanvas != null) parentCanvas.sortingOrder = 0;
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (isDragging && canvas.renderMode == RenderMode.WorldSpace)
+        {
+            RectTransformUtility.ScreenPointToWorldPointInRectangle(
+                canvas.GetComponent<RectTransform>(),
+                eventData.position,
+                eventData.pressEventCamera,
+                out Vector3 worldPoint);
+
+            worldPoint += (Vector3)offset;
+            worldPoint.z = originalZPosition;
+            rectTransform.position = worldPoint;
         }
     }
 
@@ -55,48 +97,5 @@ public class DragUITableElement : MonoBehaviour, IPointerDownHandler, IPointerUp
                 targetScale,
                 Time.deltaTime * scaleSpeed);
         }
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (!isInitialized) return;
-
-        if (canvas.renderMode == RenderMode.WorldSpace)
-        {
-            RectTransformUtility.ScreenPointToWorldPointInRectangle(
-                rectTransform,
-                eventData.position,
-                eventData.pressEventCamera,
-                out Vector3 worldPoint);
-
-            offset = rectTransform.position - worldPoint;
-            isDragging = true;
-            targetScale = originalScale * dragScaleFactor;
-            transform.SetAsLastSibling();
-        }
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        if (!isInitialized) return;
-
-        isDragging = false;
-        targetScale = originalScale;
-        SacrificeTableScript tableScript = Dependencies.Instance.GetDependancy<SacrificeTableScript>();
-        tableScript.ChechTable();
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        if (!isInitialized || !isDragging || canvas.renderMode != RenderMode.WorldSpace)
-            return;
-
-        RectTransformUtility.ScreenPointToWorldPointInRectangle(
-            canvas.GetComponent<RectTransform>(),
-            eventData.position,
-            eventData.pressEventCamera,
-            out Vector3 worldPoint);
-
-        rectTransform.position = worldPoint + (Vector3)offset;
     }
 }
