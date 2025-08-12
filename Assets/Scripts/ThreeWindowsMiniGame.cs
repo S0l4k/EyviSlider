@@ -9,12 +9,17 @@ public class ThreeWindowsMiniGame : MonoBehaviour
     public GameObject WinScreen;
     public TextMeshProUGUI Counter;
     public List<GameObject> Items;
-    void Enable()
+    public float dispersionValueX;
+    public float dispersionValueY;
+    private void OnEnable()
     {
         ItemsInPlace = 0;
-      Dependencies.Instance.RegisterDependency<ThreeWindowsMiniGame>(this);
+        foreach (var item in Items)
+        {
+            item.transform.SetLocalPositionAndRotation(new Vector3(Random.Range(-dispersionValueX, dispersionValueX), Random.Range(-dispersionValueY, dispersionValueY), 0), Quaternion.identity);
+        }
+        Dependencies.Instance.RegisterDependency<ThreeWindowsMiniGame>(this);
     }
-
 
 
     public void CheckWindows()

@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 123692228}
   - component: {fileID: 123692230}
   - component: {fileID: 123692229}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: WinScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &124880836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1843,7 +1843,7 @@ GameObject:
   - component: {fileID: 332678622}
   - component: {fileID: 332678625}
   - component: {fileID: 332678626}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Stars
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -2092,7 +2092,7 @@ GameObject:
   - component: {fileID: 387695036}
   - component: {fileID: 387695037}
   - component: {fileID: 387695038}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: WindowUnderground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,7 +2342,7 @@ GameObject:
   - component: {fileID: 463460604}
   - component: {fileID: 463460606}
   - component: {fileID: 463460605}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2505,7 +2505,7 @@ GameObject:
   - component: {fileID: 481902003}
   - component: {fileID: 481902006}
   - component: {fileID: 481902007}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Bird
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -2856,7 +2856,7 @@ GameObject:
   - component: {fileID: 524430201}
   - component: {fileID: 524430204}
   - component: {fileID: 524430205}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Farmer
   m_TagString: Earth
   m_Icon: {fileID: 0}
@@ -3719,7 +3719,7 @@ GameObject:
   - component: {fileID: 696101010}
   - component: {fileID: 696101011}
   - component: {fileID: 696101012}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: WindowEarth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3818,7 +3818,7 @@ GameObject:
   - component: {fileID: 710181578}
   - component: {fileID: 710181581}
   - component: {fileID: 710181582}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cave
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -3841,7 +3841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.244, y: 0.421}
+  m_AnchoredPosition: {x: -2.2831, y: -0.45}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710181578
@@ -4735,7 +4735,7 @@ GameObject:
   - component: {fileID: 806550764}
   - component: {fileID: 806550767}
   - component: {fileID: 806550768}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Sun
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -5354,7 +5354,7 @@ GameObject:
   - component: {fileID: 856234296}
   - component: {fileID: 856234297}
   - component: {fileID: 856234298}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: WindowSky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6152,7 +6152,7 @@ GameObject:
   - component: {fileID: 1005286284}
   - component: {fileID: 1005286287}
   - component: {fileID: 1005286288}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Lama
   m_TagString: Earth
   m_Icon: {fileID: 0}
@@ -6890,7 +6890,7 @@ GameObject:
   - component: {fileID: 1139376485}
   - component: {fileID: 1139376488}
   - component: {fileID: 1139376489}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Snake
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -7666,7 +7666,7 @@ GameObject:
   - component: {fileID: 1221902638}
   - component: {fileID: 1221902637}
   - component: {fileID: 1221902639}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: MiniBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7750,6 +7750,18 @@ MonoBehaviour:
   ItemsInPlace: 0
   WinScreen: {fileID: 123692227}
   Counter: {fileID: 1923933052}
+  Items:
+  - {fileID: 710181576}
+  - {fileID: 2144697398}
+  - {fileID: 524430199}
+  - {fileID: 332678620}
+  - {fileID: 481902001}
+  - {fileID: 1005286282}
+  - {fileID: 1928322743}
+  - {fileID: 1139376483}
+  - {fileID: 806550762}
+  dispersionValueX: 2.3
+  dispersionValueY: 0.4
 --- !u!1 &1226683695
 GameObject:
   m_ObjectHideFlags: 0
@@ -10402,7 +10414,7 @@ GameObject:
   - component: {fileID: 1790042438}
   - component: {fileID: 1790042437}
   - component: {fileID: 1790042436}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11137,7 +11149,7 @@ GameObject:
   - component: {fileID: 1923933051}
   - component: {fileID: 1923933053}
   - component: {fileID: 1923933052}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11276,7 +11288,7 @@ GameObject:
   - component: {fileID: 1928322745}
   - component: {fileID: 1928322748}
   - component: {fileID: 1928322749}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Roots
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -11437,7 +11449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1931979231}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Windows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12724,7 +12736,7 @@ GameObject:
   - component: {fileID: 2120098356}
   - component: {fileID: 2120098358}
   - component: {fileID: 2120098357}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13091,7 +13103,7 @@ GameObject:
   - component: {fileID: 2144697400}
   - component: {fileID: 2144697403}
   - component: {fileID: 2144697404}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Corn
   m_TagString: Earth
   m_Icon: {fileID: 0}
