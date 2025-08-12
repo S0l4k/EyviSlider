@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlazaSagrada_0: 3564084627781517150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

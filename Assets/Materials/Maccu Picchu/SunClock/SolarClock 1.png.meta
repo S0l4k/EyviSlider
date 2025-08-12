@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SolarClock 1_0: 2186241538708896100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
