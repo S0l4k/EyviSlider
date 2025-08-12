@@ -1,3 +1,4 @@
+using System.Drawing.Text;
 using UnityEngine;
 
 public class EarthController : MonoBehaviour
@@ -11,6 +12,7 @@ public class EarthController : MonoBehaviour
     public float maxX = 7.3f;
     private Quaternion targetRotation;
     public GameObject MainCamera;
+    public GameObject Stars;
 
     private void Start()
     {
@@ -18,14 +20,16 @@ public class EarthController : MonoBehaviour
     }
     void Update()
     {
+       
+        
         float cameraX = MainCamera.transform.position.x;
         currentProgress = Mathf.InverseLerp(minX, maxX, cameraX);
-        //currentProgress = Mathf.Clamp01(currentProgress + RotationDirection * rotationSpeed * Time.deltaTime);
 
         targetRotation = CalculateTargetRotation(currentProgress);
         transform.rotation = Quaternion.Slerp(transform.rotation,
                                              targetRotation,
                                              rotationSmoothness * Time.deltaTime);
+        Stars.transform.SetPositionAndRotation(new Vector3(-cameraX, 0, 0), Quaternion.identity);
     }
 
     Quaternion CalculateTargetRotation(float progress)
@@ -44,7 +48,6 @@ public class EarthController : MonoBehaviour
                                t);
     }
 
-    // Optional path visualization
     void OnDrawGizmosSelected()
     {
         if (rotationWaypoints == null || rotationWaypoints.Length < 2) return;
