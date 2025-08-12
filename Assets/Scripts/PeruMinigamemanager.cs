@@ -30,6 +30,7 @@ public class PeruMinigamemanager : MonoBehaviour
         Minigame2 = false;
         Minigame3 = false;
         Minigame4 = false;
+        DatesBlock.SetActive(true);
         currentScore = 0;
         foreach (var _dates in dates)
         {
