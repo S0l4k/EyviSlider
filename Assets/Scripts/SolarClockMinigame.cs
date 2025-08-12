@@ -70,6 +70,8 @@ public class SolarClockMinigame : MonoBehaviour
             won = true;
             winPanel.SetActive(true);
             timeSlider.interactable = false;
+            PeruMinigamemanager PeruMainGame = Dependencies.Instance.GetDependancy<PeruMinigamemanager>();
+            PeruMainGame.Minigame2 = true;
         }
         else
         {

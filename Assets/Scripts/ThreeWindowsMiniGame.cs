@@ -18,6 +18,8 @@ public class ThreeWindowsMiniGame : MonoBehaviour
         {
             item.transform.SetLocalPositionAndRotation(new Vector3(Random.Range(-dispersionValueX, dispersionValueX), Random.Range(-dispersionValueY, dispersionValueY), 0), Quaternion.identity);
         }
+
+        WinScreen.SetActive(false);
         Dependencies.Instance.RegisterDependency<ThreeWindowsMiniGame>(this);
     }
 
@@ -29,6 +31,8 @@ public class ThreeWindowsMiniGame : MonoBehaviour
         if(ItemsInPlace == 9)
         {
             WinScreen.SetActive(true);
+            PeruMinigamemanager PeruMainGame = Dependencies.Instance.GetDependancy<PeruMinigamemanager>();
+            PeruMainGame.Minigame3 = true;
         }
     }
 }

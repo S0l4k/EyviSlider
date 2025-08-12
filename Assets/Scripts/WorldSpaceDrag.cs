@@ -34,6 +34,8 @@ public class WorldSpaceDrag : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     public void OnPointerUp(PointerEventData eventData)
     {
         isDragging = false;
+        PeruMinigamemanager PeruMain = Dependencies.Instance.GetDependancy<PeruMinigamemanager>();
+        PeruMain.ChechDates();
     }
 
     public void OnDrag(PointerEventData eventData)

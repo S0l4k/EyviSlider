@@ -43,6 +43,8 @@ public class SacrificeTableScript : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         winScreen.SetActive(true);
+        PeruMinigamemanager PeruMainGame = Dependencies.Instance.GetDependancy<PeruMinigamemanager>();
+        PeruMainGame.Minigame4 = true;
     }
 
 }
