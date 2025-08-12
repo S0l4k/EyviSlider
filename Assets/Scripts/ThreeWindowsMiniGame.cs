@@ -18,5 +18,10 @@ public class ThreeWindowsMiniGame : MonoBehaviour
     public void CheckWindows()
     {
         Counter.text = ItemsInPlace + "/9";
+
+        if(ItemsInPlace == 9)
+        {
+            WinScreen.SetActive(true);
+        }
     }
 }
