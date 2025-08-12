@@ -6,7 +6,6 @@ public class SettingsWindow : MonoBehaviour
 {
     [Header("Script References")]
     public SerialCameraController serialCameraController;
-    public IdleFadeActivator idleFadeActivator;
     public GUISkin skin;
 
     // Toggle the settings window
@@ -207,53 +206,7 @@ public class SettingsWindow : MonoBehaviour
 
         GUILayout.Space(10);
 
-        // -------------------------------
-        // 2) IdleFadeActivator
-        // -------------------------------
-        if (idleFadeActivator != null)
-        {
-            GUILayout.Label("<b>Idle Fade Activator</b>", GetBoldStyle());
-
-            // Idle Time
-            GUILayout.Label("Idle Time:");
-            idleFadeActivator.idleTime = FloatField(idleFadeActivator.idleTime);
-            // Buttons for Idle Time presets: 5, 10, 30, 60, 120
-            GUILayout.BeginHorizontal();
-            if (GUILayout.Button("5", GUILayout.Width(40))) { idleFadeActivator.idleTime = 5f; }
-            if (GUILayout.Button("10", GUILayout.Width(40))) { idleFadeActivator.idleTime = 10f; }
-            if (GUILayout.Button("30", GUILayout.Width(40))) { idleFadeActivator.idleTime = 30f; }
-            if (GUILayout.Button("60", GUILayout.Width(40))) { idleFadeActivator.idleTime = 60f; }
-            if (GUILayout.Button("120", GUILayout.Width(40))) { idleFadeActivator.idleTime = 120f; }
-            GUILayout.EndHorizontal();
-
-            // Fade In Duration
-            GUILayout.Label("Fade In Duration:");
-            idleFadeActivator.fadeInDuration = FloatField(idleFadeActivator.fadeInDuration);
-            // Buttons for Fade In presets: 0.3, 0.5, 1, 1.5, 2
-            GUILayout.BeginHorizontal();
-            if (GUILayout.Button("0.3", GUILayout.Width(40))) { idleFadeActivator.fadeInDuration = 0.3f; }
-            if (GUILayout.Button("0.5", GUILayout.Width(40))) { idleFadeActivator.fadeInDuration = 0.5f; }
-            if (GUILayout.Button("1", GUILayout.Width(40))) { idleFadeActivator.fadeInDuration = 1f; }
-            if (GUILayout.Button("1.5", GUILayout.Width(40))) { idleFadeActivator.fadeInDuration = 1.5f; }
-            if (GUILayout.Button("2", GUILayout.Width(40))) { idleFadeActivator.fadeInDuration = 2f; }
-            GUILayout.EndHorizontal();
-
-            // Fade Out Duration
-            GUILayout.Label("Fade Out Duration:");
-            idleFadeActivator.fadeOutDuration = FloatField(idleFadeActivator.fadeOutDuration);
-            // Buttons for Fade Out presets: 0.3, 0.5, 1, 1.5, 2
-            GUILayout.BeginHorizontal();
-            if (GUILayout.Button("0.3", GUILayout.Width(40))) { idleFadeActivator.fadeOutDuration = 0.3f; }
-            if (GUILayout.Button("0.5", GUILayout.Width(40))) { idleFadeActivator.fadeOutDuration = 0.5f; }
-            if (GUILayout.Button("1", GUILayout.Width(40))) { idleFadeActivator.fadeOutDuration = 1f; }
-            if (GUILayout.Button("1.5", GUILayout.Width(40))) { idleFadeActivator.fadeOutDuration = 1.5f; }
-            if (GUILayout.Button("2", GUILayout.Width(40))) { idleFadeActivator.fadeOutDuration = 2f; }
-            GUILayout.EndHorizontal();
-        }
-        else
-        {
-            GUILayout.Label("No IdleFadeActivator assigned.");
-        }
+        
 
         GUILayout.Space(10);
 
