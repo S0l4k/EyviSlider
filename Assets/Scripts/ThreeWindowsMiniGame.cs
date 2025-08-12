@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -6,8 +8,8 @@ public class ThreeWindowsMiniGame : MonoBehaviour
     public int ItemsInPlace = 0;
     public GameObject WinScreen;
     public TextMeshProUGUI Counter;
-
-    void Start()
+    public List<GameObject> Items;
+    void Enable()
     {
         ItemsInPlace = 0;
       Dependencies.Instance.RegisterDependency<ThreeWindowsMiniGame>(this);
