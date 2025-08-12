@@ -1843,7 +1843,7 @@ GameObject:
   - component: {fileID: 332678622}
   - component: {fileID: 332678625}
   - component: {fileID: 332678626}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Stars
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -1993,7 +1993,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!4 &342469140 stripped
 Transform:
@@ -2505,7 +2505,7 @@ GameObject:
   - component: {fileID: 481902003}
   - component: {fileID: 481902006}
   - component: {fileID: 481902007}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Bird
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -2655,7 +2655,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &501570072
 GameObject:
@@ -2856,7 +2856,7 @@ GameObject:
   - component: {fileID: 524430201}
   - component: {fileID: 524430204}
   - component: {fileID: 524430205}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Farmer
   m_TagString: Earth
   m_Icon: {fileID: 0}
@@ -3006,7 +3006,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &532970180
 GameObject:
@@ -3818,7 +3818,7 @@ GameObject:
   - component: {fileID: 710181578}
   - component: {fileID: 710181581}
   - component: {fileID: 710181582}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Cave
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -3968,7 +3968,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!4 &714318216 stripped
 Transform:
@@ -4735,7 +4735,7 @@ GameObject:
   - component: {fileID: 806550764}
   - component: {fileID: 806550767}
   - component: {fileID: 806550768}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Sun
   m_TagString: Sky
   m_Icon: {fileID: 0}
@@ -4885,7 +4885,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &807442191
 GameObject:
@@ -6152,7 +6152,7 @@ GameObject:
   - component: {fileID: 1005286284}
   - component: {fileID: 1005286287}
   - component: {fileID: 1005286288}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Lama
   m_TagString: Earth
   m_Icon: {fileID: 0}
@@ -6302,7 +6302,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &1017092898
 GameObject:
@@ -6890,7 +6890,7 @@ GameObject:
   - component: {fileID: 1139376485}
   - component: {fileID: 1139376488}
   - component: {fileID: 1139376489}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Snake
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -7040,7 +7040,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &1140188804
 GameObject:
@@ -11288,7 +11288,7 @@ GameObject:
   - component: {fileID: 1928322745}
   - component: {fileID: 1928322748}
   - component: {fileID: 1928322749}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Roots
   m_TagString: Underground
   m_Icon: {fileID: 0}
@@ -11438,7 +11438,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1 &1931979230
 GameObject:
@@ -13103,7 +13103,7 @@ GameObject:
   - component: {fileID: 2144697400}
   - component: {fileID: 2144697403}
   - component: {fileID: 2144697404}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Corn
   m_TagString: Earth
   m_Icon: {fileID: 0}
@@ -13253,7 +13253,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.43, y: 0.2}
   m_EdgeRadius: 0
 --- !u!1001 &1019908621247903187
 PrefabInstance:
