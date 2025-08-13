@@ -46,5 +46,7 @@ public class PuzzleComplitionCounter : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         winScreen.SetActive(true);
+        PeruMinigamemanager PeruMainGame = Dependencies.Instance.GetDependancy<PeruMinigamemanager>();
+        PeruMainGame.Minigame1 = true;
     }
 }
