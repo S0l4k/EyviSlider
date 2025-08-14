@@ -422,7 +422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &124880836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13684,6 +13684,10 @@ PrefabInstance:
       propertyPath: 'rotationWaypoints.Array.data[6]'
       value: 
       objectReference: {fileID: 1617017752}
+    - target: {fileID: 8918880123641396506, guid: 114f9494f7fa4de42bb339608c4462e4, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
