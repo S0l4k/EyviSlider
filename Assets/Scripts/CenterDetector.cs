@@ -5,11 +5,11 @@ public class CenterDetector : MonoBehaviour
     [Tooltip("How close (in viewport units) the GameObject must be to the center (0.5, 0.5)")]
     public float centerThreshold = 0.05f;
 
-    [Tooltip("Time (in seconds) the GameObject must remain in the center before playing the 'on' animation")]
-    public float requiredTime = 1f;
+    //[Tooltip("Time (in seconds) the GameObject must remain in the center before playing the 'on' animation")]
+    //public float requiredTime = 1f;
 
-    [Tooltip("Duration of the crossfade when transitioning to the 'off' animation")]
-    public float exitTransitionDuration = 0.25f;
+    //[Tooltip("Duration of the crossfade when transitioning to the 'off' animation")]
+    //public float exitTransitionDuration = 0.25f;
 
     public string buttonTag = "YourTagHere"; // Set the tag in the Inspector or assign it in code
     public string modalTag = "YourTagHere"; // Set the tag in the Inspector or assign it in code
@@ -51,12 +51,12 @@ public class CenterDetector : MonoBehaviour
             timer += Time.deltaTime;
 
             // After required time in center, play the "on" animation if not already playing.
-            if (timer >= requiredTime && !hasPlayedOn)
-            {
-                Debug.Log($"{gameObject.name} has been in the center for {requiredTime} second(s)!");
-                animator.Play("on", 0, 0f);
-                hasPlayedOn = true;
-            }
+            //if (timer >= requiredTime && !hasPlayedOn)
+            //{
+               // Debug.Log($"{gameObject.name} has been in the center for {requiredTime} second(s)!");
+                //animator.Play("on", 0, 0f);
+                //hasPlayedOn = true;
+            //}
         }
         else
         {
@@ -70,7 +70,7 @@ public class CenterDetector : MonoBehaviour
                 float normalizedTimeOffset = currentState.normalizedTime % 1f;
 
                 // CrossFade into the "off" animation, blending from the current state.
-                animator.CrossFade("off", exitTransitionDuration, 0, normalizedTimeOffset);
+               // animator.CrossFade("off", exitTransitionDuration, 0, normalizedTimeOffset);
                 resetModals();
             }
             // Reset timer and flag when not in the center.
