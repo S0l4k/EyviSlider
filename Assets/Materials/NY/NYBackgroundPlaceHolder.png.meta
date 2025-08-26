@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NYBackgroundPlaceHolder_0: 2742272031565771035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
