@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fd45ca722e2555e46ba5cfee5021a67c
+guid: 1a7a2f26bcf3b2647aceaf9c1a3a0f7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1949089340738158140
-    second: gratis-png-ilustracion-del-icono-de-mapa-google-map-maker-google-maps-iconos-de-computadora-marcador-de-mapa-thumbnail_0
+      213: 208686513850018836
+    second: earth txt 4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +73,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gratis-png-ilustracion-del-icono-de-mapa-google-map-maker-google-maps-iconos-de-computadora-marcador-de-mapa-thumbnail_0
+      name: earth txt 4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 370
-        height: 370
+        width: 587
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3eb23ebd6e8c0b10800000000000000
-      internalID: 1949089340738158140
+      spriteID: 41ce177574765e200800000000000000
+      internalID: 208686513850018836
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gratis-png-ilustracion-del-icono-de-mapa-google-map-maker-google-maps-iconos-de-computadora-marcador-de-mapa-thumbnail_0: 1949089340738158140
+      earth txt 4_0: 208686513850018836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
