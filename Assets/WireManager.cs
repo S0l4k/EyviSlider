@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using TMPro;
+
 
 public class WireManager : MonoBehaviour
 {
@@ -11,7 +13,14 @@ public class WireManager : MonoBehaviour
     private ConnectionPoint selectedPoint;
     private LineRenderer currentLine;
     private List<(ConnectionPoint, ConnectionPoint)> connections = new List<(ConnectionPoint, ConnectionPoint)>();
+    public TMP_Text messageText;
 
+
+    private void Start()
+    {
+        if (messageText != null)
+            messageText.gameObject.SetActive(false);
+    }
     void Update()
     {
        
@@ -94,6 +103,8 @@ public class WireManager : MonoBehaviour
         currentLine = null;
     }
 
+    private bool completed = false;
+
     void CheckWin()
     {
         ConnectionPoint[] allPoints = FindObjectsOfType<ConnectionPoint>();
@@ -101,6 +112,17 @@ public class WireManager : MonoBehaviour
         {
             if (!point.isConnected) return;
         }
-        Debug.Log(" Wszystkie kable połączone elo benc");
+        if (messageText != null)
+        {
+            messageText.gameObject.SetActive(true);
+            messageText.text = "You did it!";
+        }
+        completed = true;
     }
+
+    public bool IsCompleted()
+    {
+        return completed;
+    }
+
 }
