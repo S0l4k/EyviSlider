@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 05cf0febee0338944b4a6055be78c58b
+guid: c1d3fb4895034b0488a13ca94b904cc8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5971868671985101776
-    second: WallPuzzle7_0
+      213: -3487142501452440596
+    second: PuzzleBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WallPuzzle7_0
+      name: PuzzleBackground_0
       rect:
         serializedVersion: 2
-        x: 654
-        y: 183
-        width: 146
-        height: 78
+        x: 58
+        y: 54
+        width: 166
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0345b094519af1da0800000000000000
-      internalID: -5971868671985101776
+      spriteID: ceb92cfde5e2b9fc0800000000000000
+      internalID: -3487142501452440596
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WallPuzzle7_0: -5971868671985101776
+      PuzzleBackground_0: -3487142501452440596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PuzzleComplitionCounter : MonoBehaviour
@@ -8,6 +9,7 @@ public class PuzzleComplitionCounter : MonoBehaviour
     public GameObject winScreen;
     public TextMeshProUGUI scoreText;
     public List<GameObject> puzzlePieces;
+    public List<GameObject> puzzlePlacement;
     public float maxWiggleValue = 1;
     public float dispersionValue = 1;
     public int piecesCount = 0;
@@ -26,16 +28,20 @@ public class PuzzleComplitionCounter : MonoBehaviour
     public void CheckPuzzle()
     {
         piecesCount = 0;
+        int i = 0;
         foreach (var piece in puzzlePieces)
         {
-            if (piece.transform.localPosition.magnitude < maxWiggleValue)
+
+            float currentDistance = Vector3.Distance(piece.transform.localPosition, puzzlePlacement[i].transform.localPosition);
+            if (currentDistance < maxWiggleValue)
             {
                 piecesCount++;
             }
+            i++;
         }
 
-        scoreText.text = piecesCount.ToString() + "/8";
-        if (piecesCount == 8)
+        scoreText.text = piecesCount.ToString() + "/7";
+        if (piecesCount == 7)
         {
             StartCoroutine(winning());
         }

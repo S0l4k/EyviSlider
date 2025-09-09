@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c4987e90340253c40bab459bb090194b
+guid: 76b128602b7abdb4c9fa7c1686d127c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1504003496708289712
-    second: WallPuzzle1_0
+      213: -669618143219121266
+    second: WallPuzzle8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WallPuzzle1_0
+      name: WallPuzzle8_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 489
         y: 0
-        width: 287
-        height: 600
+        width: 311
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05bc1cdc9c4b02be0800000000000000
-      internalID: -1504003496708289712
+      spriteID: e838446b8d905b6f0800000000000000
+      internalID: -669618143219121266
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WallPuzzle1_0: -1504003496708289712
+      WallPuzzle8_0: -669618143219121266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
