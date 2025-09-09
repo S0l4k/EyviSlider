@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 906203d0c03b8784c990ca6bfd750e66
+guid: 364a256025f157749ae1b6a0fd78e195
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7319664250717009111
-    second: neon-night-city-v0-6k56zyryssmb1_0
+      213: -8201345901897133338
+    second: WaterSmall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +73,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: neon-night-city-v0-6k56zyryssmb1_0
+      name: WaterSmall_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2560
-        height: 1440
+        x: 10
+        y: 7
+        width: 6
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92b03ec25245b6a90800000000000000
-      internalID: -7319664250717009111
+      spriteID: 6e2d055da57fe2e80800000000000000
+      internalID: -8201345901897133338
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      neon-night-city-v0-6k56zyryssmb1_0: -7319664250717009111
+      WaterSmall_0: -8201345901897133338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
