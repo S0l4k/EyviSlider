@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c93d6dcf69f99014fab662ca51ff59be
+guid: 36d51c353aa078b438ad85ffdd123a67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5946208108537797731
-    second: OutlineMiska_0
+      213: -2599269707942514004
+    second: TableBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OutlineMiska_0
+      name: TableBackground_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 101
-        width: 461
-        height: 269
+        x: 43
+        y: 34
+        width: 166
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d93ae0aca33da7da0800000000000000
-      internalID: -5946208108537797731
+      spriteID: ca237aed8f98debd0800000000000000
+      internalID: -2599269707942514004
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      OutlineMiska_0: -5946208108537797731
+      TableBackground_0: -2599269707942514004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

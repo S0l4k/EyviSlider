@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: db59485e3158c8d45b0522f323ba9f15
+guid: a3011c0752721da4c996ae511fc37e92
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -325507737837821000
-    second: ZlotaFigurka_0
-  - first:
-      213: 8653737402972548872
-    second: ZlotaFigurka_1
+      213: 1893169150578386795
+    second: Miska_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ZlotaFigurka_0
+      name: Miska_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 179
-        width: 227
-        height: 344
+        x: 152
+        y: 112
+        width: 440
+        height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b32982ef609b7bf0800000000000000
-      internalID: -325507737837821000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ZlotaFigurka_1
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 372
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80fa0bb8150481870800000000000000
-      internalID: 8653737402972548872
+      spriteID: b67e3ffdf43e54a10800000000000000
+      internalID: 1893169150578386795
       vertices: []
       indices: 
       edges: []
@@ -160,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ZlotaFigurka_0: -325507737837821000
-      ZlotaFigurka_1: 8653737402972548872
+      Miska_0: 1893169150578386795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 90b25415e82618841bf6a704e542ec76
+guid: c93d6dcf69f99014fab662ca51ff59be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5717104699835667153
-    second: OutlineSztylet_0
+      213: -5946208108537797731
+    second: OutlineMiska_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OutlineSztylet_0
+      name: OutlineMiska_0
       rect:
         serializedVersion: 2
-        x: 222
-        y: 109
-        width: 346
-        height: 380
+        x: 144
+        y: 101
+        width: 461
+        height: 269
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2d2496e093c8a0b0800000000000000
-      internalID: -5717104699835667153
+      spriteID: d93ae0aca33da7da0800000000000000
+      internalID: -5946208108537797731
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      OutlineSztylet_0: -5717104699835667153
+      OutlineMiska_0: -5946208108537797731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

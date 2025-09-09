@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c7d0738840dc7e64cb7c44b409bef54f
+guid: dface7c9338415949ac0e131e6fb2b58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8893218504726942364
-    second: OutlineLiscie_0
+      213: 8361901566815714802
+    second: RitualDagger_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OutlineLiscie_0
+      name: RitualDagger_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 160
-        width: 461
-        height: 371
+        x: 99
+        y: 91
+        width: 52
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46de1d363e0f49480800000000000000
-      internalID: -8893218504726942364
+      spriteID: 2fd35d8fb217b0470800000000000000
+      internalID: 8361901566815714802
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      OutlineLiscie_0: -8893218504726942364
+      RitualDagger_0: 8361901566815714802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

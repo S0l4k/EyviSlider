@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 994a18c4c735f6247875f7bcd34d2c48
+guid: 905440c95f6cbaa49845d7754d727132
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3500857763626059166
-    second: LiscKoki_0
+      213: -7619006025954654477
+    second: Sztylet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LiscKoki_0
+      name: Sztylet_0
       rect:
         serializedVersion: 2
-        x: 111
-        y: 156
-        width: 456
-        height: 372
+        x: 224
+        y: 113
+        width: 341
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e958912769b859030800000000000000
-      internalID: 3500857763626059166
+      spriteID: 3f68969f26ad34690800000000000000
+      internalID: -7619006025954654477
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LiscKoki_0: 3500857763626059166
+      Sztylet_0: -7619006025954654477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
