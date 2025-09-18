@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ParisMiniGameManager : MonoBehaviour
 {
     public bool didAlreadyMeet = false;
     public bool isInteracting = false;
     public bool miniGameFinished = false;
-    public List<GameObject> ingridients = new List<GameObject>();
+    public List<GameObject> ingridients;
     public GameObject textBox;
     public TextMeshProUGUI textUI;
     public string greatingText;
@@ -19,17 +20,7 @@ public class ParisMiniGameManager : MonoBehaviour
 
     private void Start()
     {
-        Dependencies.Instance.RegisterDependency<ParisMiniGameManager>(this);
-        didAlreadyMeet = false;
-        miniGameFinished=false;
-        isInteracting=false;
-        textBox.SetActive(false);
-        ingridientsCount=0;
-
-        foreach(GameObject ingr in ingridients)
-        {
-            ingr.SetActive(true);
-        }
+        
     }
 
     private void OnEnable()
@@ -44,6 +35,8 @@ public class ParisMiniGameManager : MonoBehaviour
         foreach (GameObject ingr in ingridients)
         {
             ingr.SetActive(true);
+            Image IngImage = ingr.GetComponent<Image>();
+            IngImage.raycastTarget = true;
         }
     }
 
@@ -86,10 +79,21 @@ public class ParisMiniGameManager : MonoBehaviour
     public void addIngridient()
     {
         ingridientsCount++;
+        Debug.Log("ingridient added, total ingridients = " + ingridientsCount);
     }
 
     public void StopInteraction()
     {
         isInteracting = false;
+    }
+
+
+    private void OnDisable()
+    {
+        foreach (GameObject ingr in ingridients)
+        {
+            Animator IngAnim = ingr.GetComponent<Animator>();
+            IngAnim.SetTrigger("End");
+        }
     }
 }

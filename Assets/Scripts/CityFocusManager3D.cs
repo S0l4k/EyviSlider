@@ -39,7 +39,7 @@ public class CityFocusManager3D : MonoBehaviour
                 
             }
             else { city.isCentered = false; }
-                Debug.Log(city.cityName + " " + Distance + " " + focusThreshold + " " + city.isCentered);
+             
             bool inCenter=city.isCentered;
 
             if (inCenter && city.isCentered) {
