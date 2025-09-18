@@ -12,6 +12,7 @@ public class PeruMinigamemanager : MonoBehaviour
     public GameObject winScreen;
     public List<GameObject> targets;
     public List<GameObject> dates;
+    public List<GameObject> miniGames;
     public float wiggleValue;
     public int currentScore;
     public bool Minigame1 = false;
@@ -35,6 +36,10 @@ public class PeruMinigamemanager : MonoBehaviour
         foreach (var _dates in dates)
         {
             _dates.transform.SetLocalPositionAndRotation(new Vector3(-1.2f, Random.Range(-0.6f, 1f), 0), Quaternion.identity);
+        }
+        foreach (var Games in miniGames)
+        {
+            Games.SetActive(false);
         }
     }
 

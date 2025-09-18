@@ -24,6 +24,8 @@ public class PuzzleComplitionCounter : MonoBehaviour
         {
             piece.transform.SetLocalPositionAndRotation(new Vector3(Random.Range(-dispersionValue, dispersionValue), Random.Range(-dispersionValue, dispersionValue), 0), Quaternion.identity);
         }
+        piecesCount = 0;
+        scoreText.text = piecesCount.ToString() + "/7";
     }
     public void CheckPuzzle()
     {

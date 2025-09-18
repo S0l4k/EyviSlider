@@ -8,7 +8,7 @@ public class CityFocusManager3D : MonoBehaviour
     {
         public string cityName;
         public Transform cityTransform;
-        public Button waypointButtonPrefab;
+        public GameObject waypointButton;
         public Canvas cityMiniGameCanvas;
 
         [HideInInspector] public Button waypointInstance;
@@ -24,53 +24,49 @@ public class CityFocusManager3D : MonoBehaviour
 
     void Start()
     {
-        foreach (var city in cities)
-        {
-            if (city.waypointButtonPrefab != null)
-            {
-                city.waypointInstance = Instantiate(city.waypointButtonPrefab, uiParent, false);
-                city.waypointInstance.gameObject.SetActive(false);
-                city.waypointInstance.onClick.AddListener(() => OnCityClicked(city));
-            }
-
-            if (city.cityMiniGameCanvas != null)
-                city.cityMiniGameCanvas.gameObject.SetActive(false);
-
-            city.isCentered = false;
-        }
+        
     }
 
     void Update()
     {
         foreach (var city in cities)
         {
-            Vector3 screenPos = mainCamera.WorldToViewportPoint(city.cityTransform.position);
-            float dx = Mathf.Abs(screenPos.x - 0.5f);
-            float dy = Mathf.Abs(screenPos.y - 0.5f);
+            float Distance = Mathf.Abs(mainCamera.transform.position.x) - Mathf.Abs(city.cityTransform.transform.position.x);
+           
+            if (Mathf.Abs(Distance)<focusThreshold)
+            {
+               city.isCentered = true;
+                
+            }
+            else { city.isCentered = false; }
+                Debug.Log(city.cityName + " " + Distance + " " + focusThreshold + " " + city.isCentered);
+            bool inCenter=city.isCentered;
 
-            bool inCenter = dx < focusThreshold && dy < focusThreshold && screenPos.z > 0;
-
-            if (inCenter && !city.isCentered)
+            if (inCenter && city.isCentered) {
                 Debug.Log($"[CENTER DETECT] Miasto w centrum: {city.cityName}");
 
             city.isCentered = inCenter;
+            Animator WaypointAnim = city.waypointButton.GetComponent<Animator>();
 
-            
-            if (city.waypointInstance != null)
+            WaypointAnim.SetTrigger("Start");
+            }
+            else
             {
-                city.waypointInstance.gameObject.SetActive(city.isCentered && !isInMiniGame);
-                city.waypointInstance.transform.position = mainCamera.WorldToScreenPoint(city.cityTransform.position);
+                Animator WaypointAnim = city.waypointButton.GetComponent<Animator>();
+
+                WaypointAnim.SetTrigger("End");
             }
         }
     }
 
-    void OnCityClicked(CityData city)
+    public void OnCityClicked(CityData city)
     {
-        Debug.Log($"[CLICK DETECT] Klikniêto miasto: {city.cityName}");
+        Debug.Log($"[CLICK DETECT] Klikniï¿½to miasto: {city.cityName}");
 
         isInMiniGame = true;
+        Animator WaypointAnim = city.waypointButton.GetComponent<Animator>();
+        WaypointAnim.SetTrigger("End");
 
-        
         foreach (var otherCity in cities)
         {
             if (otherCity.cityMiniGameCanvas != null)
@@ -82,7 +78,8 @@ public class CityFocusManager3D : MonoBehaviour
             city.cityMiniGameCanvas.gameObject.SetActive(true);
     }
 
-    
+
+
     public void ExitMiniGame()
     {
         isInMiniGame = false;

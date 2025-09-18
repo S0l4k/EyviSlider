@@ -19,10 +19,12 @@ public class SacrificeTableScript : MonoBehaviour
 
     private void OnEnable()
     {
+        winScreen.SetActive(false);
         foreach (var _object in objects)
         {
             _object.transform.SetLocalPositionAndRotation(new Vector3(Random.Range(-1.5f, 1.5f), 1, 0), Quaternion.identity);
         }
+        score.text = "0/4";
     }
 
     public void ChechTable()
