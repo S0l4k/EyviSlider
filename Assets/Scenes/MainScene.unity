@@ -1005,12 +1005,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1356167283}
+  m_Father: {fileID: 2075160802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.580017, y: 2.9699707}
-  m_SizeDelta: {x: -25.524855, y: -9.104572}
+  m_AnchoredPosition: {x: -6.6395245, y: 2.9544678}
+  m_SizeDelta: {x: -25.405855, y: -9.073571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121204658
 MonoBehaviour:
@@ -1227,8 +1227,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 677370668}
-  - {fileID: 701569008}
   - {fileID: 1770544830}
+  - {fileID: 701569008}
   m_Father: {fileID: 1338160213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1250,6 +1250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DatesBlock: {fileID: 1220916684}
   winScreen: {fileID: 181018346}
+  hotels: {fileID: 1770544829}
   targets:
   - {fileID: 706867152}
   - {fileID: 1555292852}
@@ -2944,11 +2945,11 @@ RectTransform:
   - {fileID: 904730525}
   - {fileID: 550340435}
   - {fileID: 251002864}
-  - {fileID: 2145312077}
   - {fileID: 1356320589}
   - {fileID: 1952644046}
   - {fileID: 892710231}
   - {fileID: 1738583934}
+  - {fileID: 2145312077}
   m_Father: {fileID: 1457838457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -12119,6 +12120,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1236948185}
   backgroundImage: {fileID: 2106842400}
   newBackground: {fileID: 532282208441007744, guid: 63da1680567207c438b3d683352116cf, type: 3}
+  hotels: {fileID: 607066656}
   minigameManager: {fileID: 129135298}
 --- !u!1 &886313209
 GameObject:
@@ -17837,7 +17839,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 121204657}
   - {fileID: 2106842399}
   - {fileID: 874280062}
   - {fileID: 1303677902}
@@ -19128,6 +19129,7 @@ MonoBehaviour:
     revoir!"
   finishedMigiame: Merci Beaucoup!
   ingridientsCount: 0
+  hotels: {fileID: 1738583933}
 --- !u!1 &1471820346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22972,7 +22974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1738583934
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28971,6 +28973,7 @@ RectTransform:
   m_Children:
   - {fileID: 1356167283}
   - {fileID: 129135297}
+  - {fileID: 121204657}
   m_Father: {fileID: 1338160213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -30535,7 +30538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.41, y: 2.84}
+  m_AnchoredPosition: {x: -1.41, y: 3.49}
   m_SizeDelta: {x: -25.405855, y: -9.073571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2145312078

@@ -1,22 +1,25 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 
 public class NPCDialogueWithTextbox : MonoBehaviour
 {
     [Header("UI Elements")]
-    public Button npcButton;          
-    public GameObject textBoxPanel;    
-    public TMP_Text dialogueText;      
-    public Image backgroundImage;      
-    public Sprite newBackground;      
+    public Button npcButton;
+    public GameObject textBoxPanel;
+    public TMP_Text dialogueText;
+    public Image backgroundImage;
+    public Sprite newBackground;
+    public GameObject hotels;
 
     [Header("Minigame Manager")]
-    public MinigameManager minigameManager; 
+    public MinigameManager minigameManager;
 
     private int dialogueStage = 0;
 
-  
+
     private string[] initialDialogue = new string[]
     {
         "Yo! Hey kid, thank god you’re here!\nListen, we got a serious sitch — the torch on Lady Liberty’s gone dark. Without it, ships won't know how to get to the harbor. We’re talkin’ total chaos on the water!\nProblem is, I can’t fix this on my own — too much ground to cover, too little time.\nI need you to hit up some key spots around the city, get those power sources back online. Think you can handle it?\nCheck out Empire State for the wires, Times Square for the light lens, and Central Park... you’re gonna need some bulbs, capisce?\nOnce you got all that jazz sorted, come back to me. And hurry — this city don’t sleep, but it *sure as hell* needs lights."
@@ -39,7 +42,7 @@ public class NPCDialogueWithTextbox : MonoBehaviour
 
     void Start()
     {
-        // Ukryj TextBox na start
+
         if (textBoxPanel != null)
             textBoxPanel.SetActive(false);
 
@@ -52,20 +55,20 @@ public class NPCDialogueWithTextbox : MonoBehaviour
     void OnNPCClicked()
     {
         if (textBoxPanel != null)
-            textBoxPanel.SetActive(true); 
+            textBoxPanel.SetActive(true);
 
-        
+
         bool allMinigamesDone = (minigameManager != null && minigameManager.AllMinigamesCompleted());
 
         if (!allMinigamesDone)
         {
-           
+
             dialogueText.text = (dialogueStage == 0) ? initialDialogue[0] : notDoneDialogue[0];
-            dialogueStage = 1; 
+            dialogueStage = 1;
         }
         else
         {
-            
+
             if (dialogueStage == 1)
             {
                 dialogueText.text = doneDialogue[0];
@@ -73,13 +76,23 @@ public class NPCDialogueWithTextbox : MonoBehaviour
             }
             else if (dialogueStage == 2)
             {
-                
+
                 if (backgroundImage != null && newBackground != null)
                     backgroundImage.sprite = newBackground;
 
                 dialogueText.text = finalDialogue[0];
                 dialogueStage = 3;
+                StartCoroutine(showHotels());
             }
         }
+
+
+    }
+    public IEnumerator showHotels()
+    {
+        yield return new WaitForSeconds(10);
+
+        hotels.SetActive(true);
     }
 }
+

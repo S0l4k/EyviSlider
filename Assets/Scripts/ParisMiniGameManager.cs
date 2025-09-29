@@ -17,6 +17,7 @@ public class ParisMiniGameManager : MonoBehaviour
     public string allIngridients;
     public string finishedMigiame;
     public int ingridientsCount = 0;
+    public GameObject hotels;
 
     private void Start()
     {
@@ -71,9 +72,10 @@ public class ParisMiniGameManager : MonoBehaviour
         isInteracting=true;
         textBox.SetActive(true);
         textUI.text = talkPhase;
-        if(ingridientsCount == 4) { miniGameFinished = true; }
+        if(ingridientsCount == 4) { miniGameFinished = true; StartCoroutine(showHotels()); }
         yield return new WaitUntil(() => isInteracting ==false);
         textBox.SetActive(false);
+        
     }
 
     public void addIngridient()
@@ -95,5 +97,12 @@ public class ParisMiniGameManager : MonoBehaviour
             Animator IngAnim = ingr.GetComponent<Animator>();
             IngAnim.SetTrigger("End");
         }
+    }
+
+    public IEnumerator showHotels()
+    {
+        yield return new WaitForSeconds(10);
+
+        hotels.SetActive(true);
     }
 }
