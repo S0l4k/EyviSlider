@@ -445,7 +445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed46345ebadc1fe44b605456c0cd5e55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 127791c446d96c94399fb97d8056e3e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Marquee & Co. Residences \u2014 Skyline Suite"
+  m_text: "Sacred Valley Residences \u2014 The Temple Suite\L"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1213,7 +1213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &124880836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2748,13 +2748,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: 1-bedroom suite (1,020 sq ft)\LLocation: Downtown / Financial District\LDescription:
-    Contemporary style, open living area with sofa bed, walk-in closet, dedicated
-    workspace. A sophisticated base where business efficiency meets effortless comfort.\LAmenities:
-    High-speed business Wi-Fi, personal concierge, executive lounge with 24/7 coffee
-    & snacks, private meeting room access.\LExtra perks: \u201CWork & Relax\u201D
-    package \u2014 complimentary late checkout until 4:00 PM and two items of clothing
-    pressed at no charge.\LSample rate: from $650 / night"
+  m_text: "Type: 1-bedroom suite (980 sq ft)\L Location: Ollantaytambo \u2014 near
+    Incan ruins and artisan markets\L Description: A serene suite designed with authentic
+    Andean textiles and natural materials, featuring a cozy living area with a fireplace,
+    a private balcony overlooking ancient terraces, and a luxurious bathroom with
+    a rainfall shower. Perfect for those seeking cultural immersion with modern comfort.\L
+    Amenities: High-speed Wi-Fi, cultural concierge for arranging local experiences,
+    exclusive access to a rooftop meditation terrace.\L Extra perks: \u201CCultural
+    Explorer\u201D package \u2014 private guided visits to lesser-known Incan sites
+    and artisan workshops.\L Sample rate: from $650 / night Sample rate: from $650
+    / nightSample rate: from $650 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2890,7 +2893,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b22fee7cdd279fd449d1208c90eef554, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e982a2eb396e13f4a8c3f789f2b4f6b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3180,7 +3183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aurum Suites \u2014 The Fifth Avenue Penthouse"
+  m_text: "Inti Vista Suites \u2014 The Andean Penthouse"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3389,7 +3392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sterling Grand \u2014 Park Terrace Apartment"
+  m_text: "Pachamama Residence \u2014 Family Terrace Apartment"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3525,7 +3528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4732e067ebfd81446a055c390d03df58, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 772447e1095a6464cafb4e4216d37fa4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4623,7 +4626,7 @@ RectTransform:
   m_Father: {fileID: 1723129692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -5.3, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4722,7 +4725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Marquee & Co. Residences \u2014 Skyline Suite"
+  m_text: "Le Marquise Residences \u2014 Suite Louvre"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4858,7 +4861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Aurum Suites \u2014 The Fifth Avenue Penthouse"
+  m_text: " Maison Lumi\xE8re \u2014 Penthouse sur les Toits"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5660,13 +5663,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: Family apartment with terrace (1,345 sq ft + 430 sq ft terrace)\LLocation:
-    Upper East Side \u2014 family-friendly, close to museums\LDescription: Spacious
-    living room with fireplace, two bedrooms, terrace with skyline views \u2014 perfect
-    for private dinners. Offers the rare combination of refined elegance and homely
-    warmth.\LAmenities: Family club (babysitting on request), laundry on demand,
-    private chef available for hire.\LExtra perks: Complimentary crib and welcome
-    package for children.\LSample rate: from $1,050 / night"
+  m_text: "Type: Family apartment (2 bedrooms + terrace, 1,400 sq ft + 320 sq ft
+    terrace)\LLocation: 16th arrondissement \u2014 quiet, upscale, near parks\LDescription:
+    Spacious apartment with terrace and kids\u2019 play area; separate living room
+    with fireplace, kitchen with dining space, laundry facilities. Perfect for families
+    wanting both space and a true Parisian atmosphere.\LAmenities: Family club (babysitting
+    on request), playroom access, laundry & ironing included.\LExtra perks: Complimentary
+    baby amenities and family welcome package.\LSample rate: from \u20AC760 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7741,7 +7744,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ed46345ebadc1fe44b605456c0cd5e55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d8e69237d9695442818d2bf84bfda76, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7993,7 +7996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c797601a2c07d74f99fd84f8c2e828f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c12e51e13d43474caac2186de4a552e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8178,13 +8181,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: Designer loft (studio + mezzanine, 860 sq ft)\LLocation: Chelsea
-    / Hudson Yards \u2014 artistic neighborhood\LDescription: Industrial design paired
-    with luxury finishes, high ceilings, mezzanine bedroom, river views. Designed
-    for travelers who see the city as both a gallery and a playground.\LAmenities:
-    Rooftop bar & coworking space, electric bike rentals, pre-arrival grocery service.\LExtra
-    perks: Invitation to the hotel\u2019s seasonal cultural events (exhibitions,
-    concerts).\LSample rate: from $480 / night"
+  m_text: " Type: Designer loft (studio + mezzanine, 900 sq ft)\L Location: Cusco
+    \u2014 city center with easy access to historical sites\L Description: Modern
+    loft combining industrial design with traditional Incan motifs, featuring high
+    ceilings, a mezzanine bedroom, an open kitchen, and views of the San Blas district.
+    Ideal for travelers who want a vibrant urban base to explore the region.\L Amenities:
+    Rooftop lounge with panoramic city views, bike rentals, daily breakfast delivered
+    to the suite.\L Extra perks: Invitation to local cultural events and artisan
+    markets.\L Sample rate: from $480 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9660,13 +9664,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: Family apartment with terrace (1,345 sq ft + 430 sq ft terrace)\LLocation:
-    Upper East Side \u2014 family-friendly, close to museums\LDescription: Spacious
-    living room with fireplace, two bedrooms, terrace with skyline views \u2014 perfect
-    for private dinners. Offers the rare combination of refined elegance and homely
-    warmth.\LAmenities: Family club (babysitting on request), laundry on demand,
-    private chef available for hire.\LExtra perks: Complimentary crib and welcome
-    package for children.\LSample rate: from $1,050 / night"
+  m_text: " Type: 2-bedroom apartment (1,350 sq ft + 350 sq ft terrace)\L Location:
+    Urubamba \u2014 peaceful setting in the Sacred Valley, ideal for families\L Description:
+    Spacious apartment with a large terrace overlooking the valley, a warm living
+    room with traditional Peruvian artwork, two bedrooms with king-size beds, and
+    a fully equipped kitchen. Perfect for families or groups who want to explore
+    the region in comfort and style.\L Amenities: Babysitting services on request,
+    private chef specializing in Andean cuisine, laundry and ironing service.\L Extra
+    perks: Complimentary welcome gift basket with local delicacies and artisan crafts.\L
+    Sample rate: from $850 / night\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10317,14 +10323,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: 2-bedroom penthouse (1,720 sq ft)\LLocation: Midtown \u2014 steps
-    from Central Park\LDescription: Floor-to-ceiling windows with panoramic Manhattan
-    views, separate living room with dining area, fully equipped premium kitchen,
-    marble bathroom with freestanding tub. Perfect for those seeking a serene retreat
-    high above the vibrant city streets.\LAmenities: 24/7 concierge, in-suite private
-    spa treatments, club breakfast lounge, personal trainer in the gym, limousine
-    transfers.\LExtra perks: Complimentary wine tasting with an in-house sommelier
-    for stays of 3+ nights.\LSample rate: from $1,800 / night"
+  m_text: "Type: 2-bedroom penthouse (1,615 sq ft + 375 sq ft terrace)\LLocation:
+    8th arrondissement \u2014 near Avenue des Champs-\xC9lys\xE9es & Place de la
+    Concorde\LDescription: Bright penthouse with large windows, terrace overlooking
+    Paris rooftops and the Eiffel Tower, interiors blending classic Parisian moldings
+    with modern minimalism. Every corner invites you to savour the city\u2019s timeless
+    romance.\LAmenities: 24/7 concierge, private airport transfers (limousine), daily
+    breakfast served in-suite, premium minibar restocked on request.\LExtra perks:
+    Complimentary Seine River evening cruise tickets for stays of 4+ nights.\LSample
+    rate: from \u20AC1,200 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12992,7 +12999,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Edison Park Hotel Residences \u2014 The Loft at Hudson"
+  m_text: "Andes Loft \u2014 The Cusco Urban Retreat"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16538,7 +16545,7 @@ RectTransform:
   m_Father: {fileID: 834384226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17609,7 +17616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4732e067ebfd81446a055c390d03df58, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd5d7da9643346d42ab686b911b07703, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18657,13 +18664,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: 1-bedroom suite (1,020 sq ft)\LLocation: Downtown / Financial District\LDescription:
-    Contemporary style, open living area with sofa bed, walk-in closet, dedicated
-    workspace. A sophisticated base where business efficiency meets effortless comfort.\LAmenities:
-    High-speed business Wi-Fi, personal concierge, executive lounge with 24/7 coffee
-    & snacks, private meeting room access.\LExtra perks: \u201CWork & Relax\u201D
-    package \u2014 complimentary late checkout until 4:00 PM and two items of clothing
-    pressed at no charge.\LSample rate: from $650 / night"
+  m_text: "Type: 1-bedroom suite (915 sq ft)\LLocation: 1st arrondissement \u2014
+    steps from the Louvre and Tuileries Gardens\LDescription: Palace-style suite
+    \u2014 high ceilings, hardwood floors, marble bathroom. A haven for art lovers
+    with the city\u2019s cultural treasures right at your door.\LAmenities: Executive
+    lounge with all-day snacks, cultural concierge (museum & theatre bookings), garment
+    pressing service.\LExtra perks: \u201CCulture\u201D package \u2014 priority access
+    to selected museums and private guided tour.\LSample rate: from \u20AC520 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19003,7 +19010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1457838457
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19371,7 +19378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b22fee7cdd279fd449d1208c90eef554, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd9ea283b12278f4e965b033ae9aec67, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19837,7 +19844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f49dbde8f0e4f7248822a72fd7dd05c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 716946b6256721a4a859b0f0baad2ad3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20800,7 +20807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b60d53b6e4b6a574cbb5d117864b889d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f5a7a8149a624a42a4b473bc1258aa0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21155,7 +21162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30bbbcee8bb2b394ab39f87dac7482ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6de2a397e2432cb41b6420c000924bd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21895,7 +21902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30bbbcee8bb2b394ab39f87dac7482ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc58929add8344544a099a83b0c94c3f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22171,7 +22178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sterling Grand \u2014 Park Terrace Apartment"
+  m_text: " Appartement \xC9toile \u2014 Family Terrace"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22307,7 +22314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7937749962922180185, guid: 3630491997a3e7e44ae271531041ec9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9b6ba44e3088b143b1966213ed09541, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23609,7 +23616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f49dbde8f0e4f7248822a72fd7dd05c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b693226375246f40b92fe6603a68ea6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27952,7 +27959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c797601a2c07d74f99fd84f8c2e828f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e02740bbb608fc4bbd1b655c6ed498b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28159,7 +28166,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7937749962922180185, guid: 3630491997a3e7e44ae271531041ec9d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c631d33f3dd971a4aa981d142e9fb653, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -28274,14 +28281,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: 2-bedroom penthouse (1,720 sq ft)\LLocation: Midtown \u2014 steps
-    from Central Park\LDescription: Floor-to-ceiling windows with panoramic Manhattan
-    views, separate living room with dining area, fully equipped premium kitchen,
-    marble bathroom with freestanding tub. Perfect for those seeking a serene retreat
-    high above the vibrant city streets.\LAmenities: 24/7 concierge, in-suite private
-    spa treatments, club breakfast lounge, personal trainer in the gym, limousine
-    transfers.\LExtra perks: Complimentary wine tasting with an in-house sommelier
-    for stays of 3+ nights.\LSample rate: from $1,800 / night"
+  m_text: " Type: 2-bedroom penthouse (1,650 sq ft + 400 sq ft terrace)\L Location:
+    Aguas Calientes \u2014 panoramic views of Machu Picchu and the Urubamba River\L
+    Description: This exclusive penthouse features floor-to-ceiling windows framing
+    breathtaking Andean landscapes, an expansive terrace perfect for sunset dinners,
+    a spacious living room with local artisan d\xE9cor, and a gourmet kitchen equipped
+    with top-tier appliances. Ideal for travelers wanting to combine luxury with
+    nature\u2019s majesty.\L Amenities: 24/7 personal concierge, in-suite spa services
+    using native Peruvian products, guided tours of Machu Picchu included, airport
+    limousine transfers.\L Extra perks: Complimentary traditional Peruvian welcome
+    ceremony and a private Andean cooking class for stays of 4+ nights.\L Sample
+    rate: from $1,200 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28308,7 +28318,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.15
+  m_fontSize: 0.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28598,7 +28608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b60d53b6e4b6a574cbb5d117864b889d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78c25f110e042544bbff52324f8bd335, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -29088,7 +29098,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Edison Park Hotel Residences \u2014 The Loft at Hudson"
+  m_text: "Rive Gauche Regent \u2014 The Seine Loft"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29594,13 +29604,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Type: Designer loft (studio + mezzanine, 860 sq ft)\LLocation: Chelsea
-    / Hudson Yards \u2014 artistic neighborhood\LDescription: Industrial design paired
-    with luxury finishes, high ceilings, mezzanine bedroom, river views. Designed
-    for travelers who see the city as both a gallery and a playground.\LAmenities:
-    Rooftop bar & coworking space, electric bike rentals, pre-arrival grocery service.\LExtra
-    perks: Invitation to the hotel\u2019s seasonal cultural events (exhibitions,
-    concerts).\LSample rate: from $480 / night"
+  m_text: "Type: Designer loft with mezzanine (1,020 sq ft)\LLocation: 6th arrondissement
+    \u2014 Saint-Germain / by the Seine\LDescription: Open-plan loft with mezzanine
+    bedroom, large industrial windows, river views. A stylish retreat that captures
+    the Left Bank\u2019s creative spirit.\LAmenities: Rooftop with panoramic views,
+    fitness center, in-house cocktail bar, pre-arrival local delicacy shopping service.\LExtra
+    perks: Invitation to the hotel\u2019s seasonal gourmet event.\LSample rate: from
+    \u20AC390 / night"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
