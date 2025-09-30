@@ -10,6 +10,7 @@ public class PeruMinigamemanager : MonoBehaviour
 {
     public GameObject DatesBlock;
     public GameObject winScreen;
+    public GameObject hotels;
     public List<GameObject> targets;
     public List<GameObject> dates;
     public List<GameObject> miniGames;
@@ -68,6 +69,16 @@ public class PeruMinigamemanager : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         winScreen.SetActive(true);
+
+        StartCoroutine(showHotels());
+
     }
 
+
+    public IEnumerator showHotels()
+    {
+        yield return new WaitForSeconds(10);
+
+        hotels.SetActive(true);
+    }
 }
