@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c89d4eeb537d6a5489f70a2768e46c8c
+guid: a58970eaae7d258408e2e8f502ab4df3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5701931975372099819
-    second: SolarClock_0
+      213: -1546441090093923962
+    second: "S\u0142o\u0144ce suwak_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -73,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarClock_0
+      name: "S\u0142o\u0144ce suwak_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 800
-        height: 600
+        width: 17
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be0de75ebe4512f40800000000000000
-      internalID: 5701931975372099819
+      spriteID: 68142ee9500f98ae0800000000000000
+      internalID: -1546441090093923962
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SolarClock_0: 5701931975372099819
+      "S\u0142o\u0144ce suwak_0": -1546441090093923962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
