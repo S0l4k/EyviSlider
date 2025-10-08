@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e9195fdb44f1bd4780a19521f23e290
+guid: bb1b74b864e0e18458874644e46007a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8491966496439562232
-    second: SolarClockShadow_0
+      213: 445015514871192339
+    second: Cien_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -73,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarClockShadow_0
+      name: Cien_0
       rect:
         serializedVersion: 2
-        x: 358
-        y: 267
-        width: 73
-        height: 308
+        x: 0
+        y: 0
+        width: 26
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ff6cc0498689d570800000000000000
-      internalID: 8491966496439562232
+      spriteID: 31b5f63c0430d2600800000000000000
+      internalID: 445015514871192339
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SolarClockShadow_0: 8491966496439562232
+      Cien_0: 445015514871192339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

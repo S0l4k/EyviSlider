@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f109629f8e87255418c7ac18b859c280
+guid: f39ec5468a944644f98b32b1a3352c6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8115751621883481518
-    second: SunIcon_0
+      213: -8307017650798027500
+    second: Kikut 2pm-5pm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SunIcon_0
+      name: Kikut 2pm-5pm_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 19
-        height: 19
+        x: 0
+        y: 0
+        width: 20
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 252b55426ee0f5f80800000000000000
-      internalID: -8115751621883481518
+      spriteID: 41d9845857b87bc80800000000000000
+      internalID: -8307017650798027500
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SunIcon_0: -8115751621883481518
+      Kikut 2pm-5pm_0: -8307017650798027500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
