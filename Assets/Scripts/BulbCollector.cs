@@ -27,7 +27,7 @@ public class BulbCollector : MonoBehaviour
     void OnBulbClicked(int index)
     {
         
-        bulbs[index].gameObject.SetActive(false);
+        bulbs[index].gameObject.SetActive(true);
 
        
         foundCount++;
