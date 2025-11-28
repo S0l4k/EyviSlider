@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74e1f66e957a18448ad2845b38084577
+guid: a7e78be7ae12a8146abf236da30a3382
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1019841723170939197
-    second: BetterEarth_0
+      213: -6377159588164439091
+    second: Peru ramka_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BetterEarth_0
+      name: Peru ramka_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 587
-        height: 294
+        x: 3
+        y: 2
+        width: 179
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ce164b2b5bc8d1f0800000000000000
-      internalID: -1019841723170939197
+      spriteID: dc37b776427cf77a0800000000000000
+      internalID: -6377159588164439091
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BetterEarth_0: -1019841723170939197
+      Peru ramka_0: -6377159588164439091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
