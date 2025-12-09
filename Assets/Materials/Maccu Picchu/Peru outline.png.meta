@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 74e1f66e957a18448ad2845b38084577
+guid: 7834647cec605ef40bd2318e0b3af251
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1019841723170939197
-    second: BetterEarth_0
+      213: -3396322687472903782
+    second: Peru outline_0
+  - first:
+      213: -4609349478224907919
+    second: Peru outline_1
+  - first:
+      213: 3966939816126262880
+    second: Peru outline_2
+  - first:
+      213: 172030338874633230
+    second: Peru outline_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BetterEarth_0
+      name: Peru outline_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 587
-        height: 294
+        x: 171
+        y: 1
+        width: 441
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ce164b2b5bc8d1f0800000000000000
-      internalID: -1019841723170939197
+      spriteID: a99d39e9286ddd0d0800000000000000
+      internalID: -3396322687472903782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peru outline_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 173
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b5c8221d4800c0800000000000000
+      internalID: -4609349478224907919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peru outline_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 183
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e2f89beb66d0730800000000000000
+      internalID: 3966939816126262880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peru outline_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 156
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c66378eac236200800000000000000
+      internalID: 172030338874633230
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BetterEarth_0: -1019841723170939197
+      Peru outline_0: -3396322687472903782
+      Peru outline_1: -4609349478224907919
+      Peru outline_2: 3966939816126262880
+      Peru outline_3: 172030338874633230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
