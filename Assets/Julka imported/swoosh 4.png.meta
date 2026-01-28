@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d262cb80e291930479f8698d0b345bff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4408109159940764285
+    second: swoosh 4_0
+  - first:
+      213: 2339233457714407021
+    second: swoosh 4_1
+  - first:
+      213: 4215565170064908903
+    second: swoosh 4_2
+  - first:
+      213: -5223585701781032145
+    second: swoosh 4_3
+  - first:
+      213: 4049398603381956396
+    second: swoosh 4_4
+  - first:
+      213: -9051598024753987662
+    second: swoosh 4_5
+  - first:
+      213: -7814041217224169955
+    second: swoosh 4_6
+  - first:
+      213: 6348738917587364615
+    second: swoosh 4_7
+  - first:
+      213: -6377583380515762069
+    second: swoosh 4_8
+  - first:
+      213: 5720845516616356039
+    second: swoosh 4_9
+  - first:
+      213: -3376545332584738917
+    second: swoosh 4_10
+  - first:
+      213: 2662611139767380830
+    second: swoosh 4_11
+  - first:
+      213: 362099502056906009
+    second: swoosh 4_12
+  - first:
+      213: -8345073630808764404
+    second: swoosh 4_13
+  - first:
+      213: 5864842870656835185
+    second: swoosh 4_14
+  - first:
+      213: -6964159219684554771
+    second: swoosh 4_15
+  - first:
+      213: 7542164869820552708
+    second: swoosh 4_16
+  - first:
+      213: 712833519381604996
+    second: swoosh 4_17
+  - first:
+      213: 3104541896632038276
+    second: swoosh 4_18
+  - first:
+      213: 3154946731811791603
+    second: swoosh 4_19
+  - first:
+      213: -6469673259678879281
+    second: swoosh 4_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swoosh 4_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 247
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d723a610defbc2d30800000000000000
+      internalID: 4408109159940764285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 243
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66a6cd9f60a67020800000000000000
+      internalID: 2339233457714407021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 262
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7626a39ef22b08a30800000000000000
+      internalID: 4215565170064908903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 271
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23388fda781287b0800000000000000
+      internalID: -5223585701781032145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_4
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 250
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f5b8c339a523830800000000000000
+      internalID: 4049398603381956396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_5
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 227
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf39eccd83426280800000000000000
+      internalID: -9051598024753987662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 73
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16a71bd9e2fe8390800000000000000
+      internalID: -7814041217224169955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 214
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b2e7298604b1850800000000000000
+      internalID: 6348738917587364615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_8
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 179
+        width: 51
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b605cee84b54e77a0800000000000000
+      internalID: -6377583380515762069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0ddc0efa6846f40800000000000000
+      internalID: 5720845516616356039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_10
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 70
+        width: 97
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f8843e8e91421d0800000000000000
+      internalID: -3376545332584738917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_11
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 107
+        width: 69
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b25d879be73f420800000000000000
+      internalID: 2662611139767380830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d9271249f660500800000000000000
+      internalID: 362099502056906009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c001a233fb7503c80800000000000000
+      internalID: -8345073630808764404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e9bf0848b146150800000000000000
+      internalID: 5864842870656835185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 17
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7c07f56165a5f90800000000000000
+      internalID: -6964159219684554771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406951f2df62ba860800000000000000
+      internalID: 7542164869820552708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a6bb22f4e74e900800000000000000
+      internalID: 712833519381604996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483f11b086c851b20800000000000000
+      internalID: 3104541896632038276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_19
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2ebe2465f98cb20800000000000000
+      internalID: 3154946731811791603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swoosh 4_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc13ff7b27a1736a0800000000000000
+      internalID: -6469673259678879281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      swoosh 4_0: 4408109159940764285
+      swoosh 4_1: 2339233457714407021
+      swoosh 4_10: -3376545332584738917
+      swoosh 4_11: 2662611139767380830
+      swoosh 4_12: 362099502056906009
+      swoosh 4_13: -8345073630808764404
+      swoosh 4_14: 5864842870656835185
+      swoosh 4_15: -6964159219684554771
+      swoosh 4_16: 7542164869820552708
+      swoosh 4_17: 712833519381604996
+      swoosh 4_18: 3104541896632038276
+      swoosh 4_19: 3154946731811791603
+      swoosh 4_2: 4215565170064908903
+      swoosh 4_20: -6469673259678879281
+      swoosh 4_3: -5223585701781032145
+      swoosh 4_4: 4049398603381956396
+      swoosh 4_5: -9051598024753987662
+      swoosh 4_6: -7814041217224169955
+      swoosh 4_7: 6348738917587364615
+      swoosh 4_8: -6377583380515762069
+      swoosh 4_9: 5720845516616356039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
